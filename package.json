@@ -1,0 +1,34 @@
+{
+  "name": "sprite-extractor",
+  "version": "0.0.1",
+  "description": "Tool for extracting sprites from TexturePacker Spritesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sprite-extractor": "./index.js"
+  },
+  "author": "Ha.Minh <minhhh@minhhuyha.info>",
+  "license": "MIT",
+  "keywords": [
+    "TexturePacker",
+    "extract",
+    "sprite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minhhh/sprite-extractor.git"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "docopt": "^0.6.2",
+    "ewait": "^0.2.1",
+    "gm": "^1.23.1",
+    "is-directory": "^0.3.1",
+    "path": "^0.12.7",
+    "path-is-absolute": "^1.0.1",
+    "rimraf": "^2.6.2",
+    "walker": "^1.0.7"
+  }
+}
