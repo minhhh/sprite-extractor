@@ -101,13 +101,17 @@ var launch = function(args) {
                         if (_item['trimmed']) {
                             w += _item['spriteSourceSize']['x']
                             result.gravity('East')
+                                .background('transparent')
                                 .extent(w, h)
                             result.gravity('West')
+                                .background('transparent')
                                 .extent(_item['sourceSize']['w'], h)
                             h += _item['spriteSourceSize']['y']
                             result.gravity('South')
+                                .background('transparent')
                                 .extent(_item['sourceSize']['w'], h)
                             result.gravity('North')
+                                .background('transparent')
                                 .extent(_item['sourceSize']['w'], _item['sourceSize']['h'])
                         }
                         result.write('./' + _item['spriteName'], function(_err) {

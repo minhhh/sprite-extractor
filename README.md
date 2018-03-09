@@ -21,6 +21,11 @@ npm install -g sprite-extractor
 
 ## Change log
 
+**0.0.2**
+
+    * Bug fixes
+        * Fix sprite's background is white while it should be transparent
+
 **0.0.1**
 
     * Initial commit

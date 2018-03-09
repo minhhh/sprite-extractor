@@ -1,6 +1,6 @@
 {
   "name": "sprite-extractor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tool for extracting sprites from TexturePacker Spritesheets",
   "main": "index.js",
   "scripts": {
